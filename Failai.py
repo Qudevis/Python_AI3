@@ -155,3 +155,5 @@
 
 
 # main()
+
+print("As smagiai printinu failuose")
