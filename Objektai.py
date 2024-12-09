@@ -110,3 +110,4 @@
 #     if isinstance(animal,Cat):
 #         animal.catch_mouse()
 
+print("Printinu")
