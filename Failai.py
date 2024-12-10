@@ -159,3 +159,5 @@
 print("As smagiai printinu failuose")
 
 print("Konfliktuoju is Justo puses")
+
+print("As konfliktuoju iš debesies pusės per naršyklę")
