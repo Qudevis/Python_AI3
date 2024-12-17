@@ -49,9 +49,9 @@ insert_user(vardas,pavarde)
 #     cur.execute("Select * From Users")
 #     return cur.fetchall()
 # Update Users Set Name = :Vardas, last_name = :last_name
-# def get_all_users():
-#     cur.execute("Select * From Users Where name = ?",(reiksme,))
-#     return cur.fetchall()
+def get_users_by_name(filtras):
+    cur.execute("Select * From Users Where name = ?",(filtras,))
+    return cur.fetchall()
 
 # print(get_all_users())
 # conn.close() # uzdarome greitkeli
